@@ -1,0 +1,10 @@
+alg = input('Digite algo: ')
+print('Tipo/Classe (Str/Int): ', type(alg))
+print('Como seria em maiúsculo: ', alg.upper())
+print('como seria em minúsculo: ', alg.lower())
+print('é alpha numérico (True/False) :', alg.isalnum())
+print('é uma letra (True/False) :', alg.isalpha())
+print('é um numéro (True/False) :', alg.isnumeric())
+print('é um Isascii (True/False) :', alg.isascii())
+print('é decimal (True/False) :', alg.isdecimal())
+
